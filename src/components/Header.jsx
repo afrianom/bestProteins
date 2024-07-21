@@ -1,5 +1,3 @@
-import headerImg from '../assets/react-core-concepts.png';
-
 const reactDescriptions = ['Fundamental', 'Crucial', 'Core'];
 
 function genRandomInt(max) {
@@ -11,10 +9,9 @@ export default function Header() {
   
     return (
       <header>
-        <img src={headerImg} alt="Stylized atom" />
-        <h1>Best Natural Proteins</h1>
+        <h1>Healthy Foods</h1>
         <p>
-          {randomWord} React concepts you will need for almost any app you are going to build!
+          Healthy food fuels our bodies and minds, promoting overall well-being and vitality.
         </p>
       </header>
     );
