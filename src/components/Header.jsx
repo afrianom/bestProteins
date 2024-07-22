@@ -9,7 +9,7 @@ export default function Header() {
   
     return (
       <header>
-        <h1>Healthy Foods</h1>
+        <h1>BalanceBites</h1>
         <p>
           Healthy food fuels our bodies and minds, promoting overall well-being and vitality.
         </p>
