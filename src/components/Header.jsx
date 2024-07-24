@@ -1,17 +1,12 @@
-const reactDescriptions = ['Fundamental', 'Crucial', 'Core'];
-
-function genRandomInt(max) {
-    return Math.floor(Math.random() * (max + 1));
-  }
+import balanceBitesImg from '../assets/balancebites.svg'
 
 export default function Header() {
-    const randomWord = reactDescriptions[genRandomInt(2)]
-  
+   
     return (
       <header>
-        <h1>BalanceBites</h1>
+        <img src={balanceBitesImg} width={400} />
         <p>
-          Healthy food fuels our bodies and minds, promoting overall well-being and vitality.
+        Your Daily Dose of Balanced Nutrition.
         </p>
       </header>
     );
